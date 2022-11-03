@@ -1,7 +1,7 @@
 const makeWASocket = require('@adiwajshing/baileys').default
 
 const { DisconnectReason, useMultiFileAuthState  } = require('@adiwajshing/baileys')
-const { connection, lastDisconnect, qr }
+//const { connection, lastDisconnect, qr }
 
 var Connection = null
 
@@ -10,7 +10,7 @@ const start = () => {
         const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
 
         const client = makeWASocket({
-            //printQRInTerminal: true,
+            printQRInTerminal: true,
             auth: state
         })
 
