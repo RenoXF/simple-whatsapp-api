@@ -1,0 +1,27 @@
+{
+  "name": "simple-whatsapp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenoXF/simple-whatsapp-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "socketio": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/RenoXF/simple-whatsapp-api/issues"
+  },
+  "homepage": "https://github.com/RenoXF/simple-whatsapp-api#readme"
+}
